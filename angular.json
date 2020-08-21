@@ -92,6 +92,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "reservation-app"
+    }
+  },
+  "defaultProject": "reservation-app",
+  "cli": {
+    "analytics": "eb140124-38ca-4628-9643-30185c974aaa"
+  }
 }
